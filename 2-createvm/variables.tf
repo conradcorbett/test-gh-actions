@@ -13,5 +13,5 @@ variable "tfc_vpc_workspace_name" {
 variable "instance_type" {
   description = "Type of EC2 instance to use"
   type        = string
-  default     = "t2.micro"
+  default     = "t2.nano"
 }
