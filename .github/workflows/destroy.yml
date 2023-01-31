@@ -34,7 +34,7 @@ jobs:
           terraform apply -auto-approve -destroy
 
       - name: Terraform Destroy VPC
-        working-directory: 21-createvpc
+        working-directory: 2-createvpc
         run: |
           terraform init
           terraform apply -auto-approve -destroy
